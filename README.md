@@ -1,3 +1,20 @@
+# angular-tour-of-heroes
+
+Angularの[チュートリアル](https://angular.jp/tutorial)で作成  
+[gh-pages](https://github.com/uzimihsr/angular-tour-of-heroes/tree/gh-pages)ブランチの内容を`GitHub Pages`で公開中  
+https://uzimihsr.github.io/angular-tour-of-heroes/  
+
+## GitHub Pagesでの公開手順
+
+```bash
+$ git clone https://github.com/uzimihsr/angular-tour-of-heroes.git
+$ cd angular-tour-of-heroes
+$ ng add angular-cli-ghpages
+$ ng deploy --base-href=/angular-tour-of-heroes/
+```
+
+---
+
 # AngularTourOfHeroes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4.
